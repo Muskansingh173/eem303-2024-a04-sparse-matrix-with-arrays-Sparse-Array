@@ -33,17 +33,18 @@ int main() {
 // Function to convert a matrix into sparse matrix format
 void createSparseMatrix(int sparseMatrix[][3], int originalMatrix[][N], int rows, int cols) {
     //WRITE THE FUNCTION DESCRIPTION HERE
-    
+   void convertToCSR( int rows,int cols,int matrix[rCMS][cols],
+     int  **values,int **cal_incries,int   **row_ptrs,int
+    int count =0:
 
-
-
-
-
-
-
-
+// calculate the number of non -zero elements 
+for (int i=0; 1<rows:++){
+    for(int j=0:j< cols:++){
+        if (eartrix[i][j] !=0){
+      count++:
+   }
+  }
 }
-
 // Function to print sparse matrix representation
 void printSparseMatrix(int sparseMatrix[][3], int nonZeroCount) {
     //WRITE THE FUNCTION DESCRIPTION HERE
